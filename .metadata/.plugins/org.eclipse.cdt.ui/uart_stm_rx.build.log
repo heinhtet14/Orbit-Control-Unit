@@ -1,0 +1,10 @@
+10:07:48 **** Build of configuration Debug for project uart_stm_rx ****
+make -j8 all 
+arm-none-eabi-size   uart_stm_rx.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15800	     28	   1960	  17788	   457c	uart_stm_rx.elf
+Finished building: default.size.stdout
+ 
+
+10:07:48 Build Finished. 0 errors, 0 warnings. (took 234ms)
+

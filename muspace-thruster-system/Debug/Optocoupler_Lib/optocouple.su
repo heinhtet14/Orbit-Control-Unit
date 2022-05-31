@@ -1,0 +1,7 @@
+optocouple.c:10:6:Sensors_Init	8	static
+optocouple.c:20:6:Thurster_Head_On_State	8	static
+optocouple.c:25:6:Thurster_Head_Off_State	8	static
+optocouple.c:30:6:Solenoid_On_State	8	static
+optocouple.c:35:6:PFCV_On_State	8	static
+optocouple.c:40:6:Cathode_Heater_On_State	8	static
+optocouple.c:45:6:Cathode_Keeper_Relay_On_State	8	static

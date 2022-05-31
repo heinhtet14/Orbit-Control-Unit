@@ -1,0 +1,2 @@
+PFCV.c:27:6:pfcv_send_set_point	24	static
+PFCV.c:46:8:pfcv_init	24	static

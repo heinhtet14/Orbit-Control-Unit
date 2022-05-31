@@ -1,0 +1,31 @@
+16:34:17 **** Build of configuration Debug for project f091-ai ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F091xC -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/ST/AI/Inc -I../X-CUBE-AI/App -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:28:
+../Core/Src/main.c: In function 'main':
+../X-CUBE-AI/App/sine_model.h:42:3: error: invalid initializer
+   42 |   ai_sine_model_inputs_get(AI_HANDLE_NULL, NULL)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:98:47: note: in expansion of macro 'AI_SINE_MODEL_IN'
+   98 |    ai_buffer ai_input[AI_SINE_MODEL_IN_NUM] = AI_SINE_MODEL_IN;
+      |                                               ^~~~~~~~~~~~~~~~
+../X-CUBE-AI/App/sine_model.h:59:1: error: invalid initializer
+   59 | ai_sine_model_outputs_get(AI_HANDLE_NULL, NULL)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:99:49: note: in expansion of macro 'AI_SINE_MODEL_OUT'
+   99 |    ai_buffer ai_output[AI_SINE_MODEL_OUT_NUM] = AI_SINE_MODEL_OUT;
+      |                                                 ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:102:34: warning: missing braces around initializer [-Wmissing-braces]
+  102 |    ai_network_params ai_params = {
+      |                                  ^
+../Core/Src/main.c:108:15: error: 'ai_buffer' {aka 'struct ai_buffer_'} has no member named 'n_batches'
+  108 |    ai_input[0].n_batches = 1;
+      |               ^
+../Core/Src/main.c:110:16: error: 'ai_buffer' {aka 'struct ai_buffer_'} has no member named 'n_batches'
+  110 |    ai_output[0].n_batches = 1;
+      |                ^
+make: *** [Core/Src/subdir.mk:31: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+16:34:17 Build Failed. 5 errors, 1 warnings. (took 412ms)
+

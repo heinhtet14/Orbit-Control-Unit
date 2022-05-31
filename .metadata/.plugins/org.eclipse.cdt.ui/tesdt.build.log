@@ -1,0 +1,10 @@
+09:59:39 **** Incremental Build of configuration Debug for project tesdt ****
+make -j8 all 
+arm-none-eabi-size   tesdt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21976	    216	   1912	  24104	   5e28	tesdt.elf
+Finished building: default.size.stdout
+ 
+
+09:59:39 Build Finished. 0 errors, 0 warnings. (took 168ms)
+

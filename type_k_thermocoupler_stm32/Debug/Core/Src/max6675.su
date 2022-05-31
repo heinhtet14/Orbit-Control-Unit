@@ -1,0 +1,2 @@
+max6675.c:12:16:SPI_Rx	40	static
+max6675.c:22:6:ReadThermoCouple	32	static

@@ -1,0 +1,9 @@
+GATE.c:10:6:Sensors_Init	4	static
+GATE.c:20:6:Thurster_Head_On	8	static
+GATE.c:25:6:Thurster_Head_Off	8	static
+GATE.c:30:6:Solenoid_On_State	8	static
+GATE.c:35:6:PFCV_On_State	8	static
+GATE.c:40:6:Cathode_Heater_On	8	static
+GATE.c:45:6:Cathode_Heater_Off	8	static
+GATE.c:49:6:Cathode_Keeper_On	8	static
+GATE.c:54:6:Cathode_Keeper_Off	8	static

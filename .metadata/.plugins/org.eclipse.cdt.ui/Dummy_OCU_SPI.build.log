@@ -1,0 +1,10 @@
+12:03:49 **** Incremental Build of configuration Debug for project Dummy_OCU_SPI ****
+make -j8 all 
+arm-none-eabi-size   Dummy_OCU_SPI.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8588	     20	   1684	  10292	   2834	Dummy_OCU_SPI.elf
+Finished building: default.size.stdout
+ 
+
+12:03:50 Build Finished. 0 errors, 0 warnings. (took 182ms)
+

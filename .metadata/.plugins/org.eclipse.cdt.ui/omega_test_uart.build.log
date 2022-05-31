@@ -1,0 +1,10 @@
+10:07:46 **** Build of configuration Debug for project omega_test_uart ****
+make -j8 all 
+arm-none-eabi-size   omega_test_uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41280	    496	   2016	  43792	   ab10	omega_test_uart.elf
+Finished building: default.size.stdout
+ 
+
+10:07:47 Build Finished. 0 errors, 0 warnings. (took 172ms)
+

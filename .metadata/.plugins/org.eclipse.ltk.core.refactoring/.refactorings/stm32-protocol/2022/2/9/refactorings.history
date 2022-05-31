@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;stm32-protocol/SPI_Library/MAX6675_SPI&apos; to &apos;MAX6675_SPI.h&apos;" description="Rename resource &apos;MAX6675_SPI&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="SPI_Library/MAX6675_SPI" name="MAX6675_SPI.h" stamp="1645516563890" updateReferences="true"/>
+</session>

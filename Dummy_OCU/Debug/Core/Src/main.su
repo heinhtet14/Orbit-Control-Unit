@@ -1,0 +1,17 @@
+main.c:89:6:EncryptMessage	32	static
+main.c:93:15:BreakMessage	32	static
+main.c:98:6:DecryptMessage	32	static
+main.c:116:6:HAL_GPIO_EXTI_Callback	16	static
+main.c:141:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:150:6:HAL_SPI_TxCpltCallback	16	static
+main.c:166:6:HAL_SPI_RxCpltCallback	16	static
+main.c:209:5:main	8	static
+main.c:263:6:SystemClock_Config	88	static
+main.c:317:13:MX_ETH_Init	8	static
+main.c:364:13:MX_SPI4_Init	8	static
+main.c:403:13:MX_TIM14_Init	8	static
+main.c:434:13:MX_USART3_UART_Init	8	static
+main.c:469:13:MX_USB_OTG_FS_PCD_Init	8	static
+main.c:502:13:MX_DMA_Init	16	static
+main.c:523:13:MX_GPIO_Init	56	static
+main.c:584:6:Error_Handler	4	static,ignoring_inline_asm

@@ -1,0 +1,10 @@
+10:07:44 **** Build of configuration Debug for project i2c-rtc ****
+make -j8 all 
+arm-none-eabi-size   i2c-rtc.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11888	     20	   1780	  13688	   3578	i2c-rtc.elf
+Finished building: default.size.stdout
+ 
+
+10:07:44 Build Finished. 0 errors, 0 warnings. (took 156ms)
+

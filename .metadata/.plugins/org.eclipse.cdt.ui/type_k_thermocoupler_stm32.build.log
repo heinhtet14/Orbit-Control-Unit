@@ -1,0 +1,20 @@
+16:34:21 **** Build of configuration Debug for project type_k_thermocoupler_stm32 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F091xC -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f0xx.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F091xC -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f0xx.d" -MT"Core/Src/system_stm32f0xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f0xx.o"
+../Core/Src/main.c: In function 'InitThermocouple1':
+../Core/Src/main.c:132:28: error: 'Th1_CS_Pin' undeclared (first use in this function); did you mean 'TMS_Pin'?
+  132 |    sensor_th1.Thx_CS_Pin = Th1_CS_Pin;   // CS Pin
+      |                            ^~~~~~~~~~
+      |                            TMS_Pin
+../Core/Src/main.c:132:28: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:133:29: error: 'Th1_CS_GPIO_Port' undeclared (first use in this function); did you mean 'TMS_GPIO_Port'?
+  133 |    sensor_th1.Thx_CS_Port = Th1_CS_GPIO_Port; // CS GPIO PORT
+      |                             ^~~~~~~~~~~~~~~~
+      |                             TMS_GPIO_Port
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+16:34:22 Build Failed. 4 errors, 0 warnings. (took 477ms)
+

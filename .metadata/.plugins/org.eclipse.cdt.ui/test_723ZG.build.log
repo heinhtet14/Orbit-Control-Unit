@@ -1,0 +1,10 @@
+11:47:39 **** Incremental Build of configuration Debug for project test_723ZG ****
+make -j8 all 
+arm-none-eabi-size   test_723ZG.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21976	    216	   1912	  24104	   5e28	test_723ZG.elf
+Finished building: default.size.stdout
+ 
+
+11:47:40 Build Finished. 0 errors, 0 warnings. (took 172ms)
+

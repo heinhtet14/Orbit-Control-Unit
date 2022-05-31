@@ -1,0 +1,10 @@
+15:34:10 **** Incremental Build of configuration Debug for project dummyOBC ****
+make -j8 all 
+arm-none-eabi-size   dummyOBC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23608	   1044	   3292	  27944	   6d28	dummyOBC.elf
+Finished building: default.size.stdout
+ 
+
+15:34:11 Build Finished. 0 errors, 0 warnings. (took 236ms)
+

@@ -1,0 +1,4 @@
+sine_model_data.c:90:11:ai_sine_model_data_activations_buffer_get	80	static
+sine_model_data.c:108:11:ai_sine_model_data_weights_buffer_get	80	static
+sine_model_data.c:126:11:ai_sine_model_data_weights_get	8	static
+sine_model_data.c:145:9:ai_sine_model_data_params_get	40	static

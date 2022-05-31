@@ -1,0 +1,10 @@
+10:07:40 **** Build of configuration Debug for project FLASH_F4 ****
+make -j8 all 
+arm-none-eabi-size   FLASH_F4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9908	     20	   1788	  11716	   2dc4	FLASH_F4.elf
+Finished building: default.size.stdout
+ 
+
+10:07:40 Build Finished. 0 errors, 0 warnings. (took 172ms)
+

@@ -1,0 +1,10 @@
+17:45:50 **** Incremental Build of configuration Debug for project GPIO_Driver ****
+make -j8 all 
+arm-none-eabi-size   GPIO_Driver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8192	     20	   1700	   9912	   26b8	GPIO_Driver.elf
+Finished building: default.size.stdout
+ 
+
+17:45:50 Build Finished. 0 errors, 0 warnings. (took 251ms)
+

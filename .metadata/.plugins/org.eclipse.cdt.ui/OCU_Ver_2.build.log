@@ -1,0 +1,27 @@
+13:56:18 **** Incremental Build of configuration Debug for project OCU_Ver_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'ShiftBit':
+../Core/Src/main.c:111:27: warning: unused variable 'bits2' [-Wunused-variable]
+  111 |  unsigned char bits1 = 0, bits2 =0;
+      |                           ^~~~~
+../Core/Src/main.c:111:16: warning: unused variable 'bits1' [-Wunused-variable]
+  111 |  unsigned char bits1 = 0, bits2 =0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "OCU_Ver_2.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\HEIN.H\STM32CubeIDE\workspace_1.8.0\OCU_Ver_2\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="OCU_Ver_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: OCU_Ver_2.elf
+ 
+arm-none-eabi-size   OCU_Ver_2.elf 
+arm-none-eabi-objdump -h -S  OCU_Ver_2.elf  > "OCU_Ver_2.list"
+arm-none-eabi-objcopy  -O binary  OCU_Ver_2.elf  "OCU_Ver_2.bin"
+   text	   data	    bss	    dec	    hex	filename
+  25516	    216	   3088	  28820	   7094	OCU_Ver_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: OCU_Ver_2.bin
+ 
+Finished building: OCU_Ver_2.list
+ 
+
+13:56:19 Build Finished. 0 errors, 2 warnings. (took 1s.499ms)
+

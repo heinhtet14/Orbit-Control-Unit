@@ -1,0 +1,10 @@
+11:57:51 **** Incremental Build of configuration Debug for project muspace-thruster-system ****
+make -j8 all 
+arm-none-eabi-size   muspace-thruster-system.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15220	     28	   2100	  17348	   43c4	muspace-thruster-system.elf
+Finished building: default.size.stdout
+ 
+
+11:57:51 Build Finished. 0 errors, 0 warnings. (took 227ms)
+

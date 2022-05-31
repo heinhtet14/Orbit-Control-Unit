@@ -1,0 +1,10 @@
+15:33:56 **** Incremental Build of configuration Debug for project nucleof091rc-dma-test ****
+make -j8 all 
+arm-none-eabi-size   nucleof091rc-dma-test.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9888	     20	   1772	  11680	   2da0	nucleof091rc-dma-test.elf
+Finished building: default.size.stdout
+ 
+
+15:33:56 Build Finished. 0 errors, 0 warnings. (took 243ms)
+

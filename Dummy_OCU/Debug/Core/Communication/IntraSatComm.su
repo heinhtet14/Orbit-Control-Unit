@@ -1,0 +1,3 @@
+IntraSatComm.c:18:6:PacketInit	4	static
+IntraSatComm.c:36:6:PacketAssemble	48	dynamic
+IntraSatComm.c:83:15:PacketDisassemble	72	dynamic

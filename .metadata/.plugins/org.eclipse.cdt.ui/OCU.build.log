@@ -1,0 +1,10 @@
+10:07:43 **** Build of configuration Debug for project OCU ****
+make -j8 all 
+arm-none-eabi-size   OCU.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16224	     20	   2432	  18676	   48f4	OCU.elf
+Finished building: default.size.stdout
+ 
+
+10:07:43 Build Finished. 0 errors, 0 warnings. (took 235ms)
+

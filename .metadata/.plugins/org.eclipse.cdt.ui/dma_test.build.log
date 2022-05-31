@@ -1,0 +1,10 @@
+10:07:44 **** Build of configuration Debug for project dma_test ****
+make -j8 all 
+arm-none-eabi-size   dma_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18972	     28	   2124	  21124	   5284	dma_test.elf
+Finished building: default.size.stdout
+ 
+
+10:07:44 Build Finished. 0 errors, 0 warnings. (took 234ms)
+

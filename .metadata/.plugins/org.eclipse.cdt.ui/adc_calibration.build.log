@@ -1,0 +1,10 @@
+10:07:43 **** Build of configuration Debug for project adc_calibration ****
+make -j8 all 
+arm-none-eabi-size   adc_calibration.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10060	     20	   1780	  11860	   2e54	adc_calibration.elf
+Finished building: default.size.stdout
+ 
+
+10:07:43 Build Finished. 0 errors, 0 warnings. (took 172ms)
+
